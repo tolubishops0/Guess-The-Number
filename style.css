@@ -144,6 +144,7 @@ h1 {
   .guess{
     width: 20rem;
     height: 10rem;
+    font-size: 4rem;
   }
 
   .right{
@@ -185,10 +186,11 @@ h1 {
   .guess{
     width: 10rem;
     height: 5rem;
+    font-size: 2rem;
   }
 
   .right{
-    margin-left: 15rem;
+    margin-left: 10rem;
     font-size: 1rem;
   }
 
