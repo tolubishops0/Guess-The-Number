@@ -11,7 +11,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+  font-family: 'Press Start 2P', 'Arial', Helvetica, sans-serif;
   color: #eee;
   background-color: #222;
   /* background-color: #60b347; */
@@ -119,3 +119,82 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 720px){
+  header h1{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .between{
+    margin-top: 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  .btn{
+    font-size: 1.5rem;
+  }
+
+  .number{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 12rem;
+  }
+
+  .guess{
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .right{
+    margin-left: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .left{
+    margin-left: 1rem;
+  }
+  
+  .again{
+    width: 13rem; 
+    font-size: 1.5rem; 
+  }
+}
+
+@media screen and (min-width: 400px){
+  header h1{
+    font-size: 1rem;
+  }
+
+  .again{
+    width: 13rem; 
+    font-size: 0.2rem; 
+  }
+
+  .between{
+    margin-top: 1.8rem;
+    font-size: 1rem;
+  }
+
+  .left{
+    margin-left: 1rem;
+  }
+
+  .right{
+    margin-left: 19rem;
+    font-size: 1.2rem;
+  }
+
+  .btn{
+    font-size: 1rem;
+  }
+
+  .guess{
+    width: 15rem;
+    height: 8rem;
+    font-size: 3rem;
+  }
+
+}
+
+
