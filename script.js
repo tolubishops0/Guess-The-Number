@@ -39,7 +39,7 @@ document.querySelector('.check').addEventListener('click', function () {
   } 
   
   else if (guess === secretNumber) {
-    displayNumber();
+    displayNumber("You won!");
     displayMessage('🎉 Correct Number!');
     displayColorWidth('red', '30rem');
 
